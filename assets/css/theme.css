@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Exo+2|Source+Code+Pro&display=swap');
+
+
+body {
+  background-image: url('../img/hero.png');
+  color: #fff;
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+  background-repeat: no-repeat, repeat;
+
+}
+h2 {
+  font-family: 'Bebas Neue', cursive;
+}
+p {
+  font-family: 'Exo 2', sans-serif;
+}
+.hero {
+  margin: auto;
+  padding-top: 10vh;
+  width: 20%;
+  z-index: 2;
+}
+.logo {
+  margin: auto;
+  width: 30%;
+  margin-left: 10%;
+}
+.hero ul li {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+.hero ul {
+  padding: none;
+}
+.hero ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+  margin: 5px;
+  text-transform: uppercase;
+  width: 100%;
+  font-family: 'Bebas Neue', cursive;
+  background: linear-gradient(to right, white 50%, transparent 50%);
+    background-size: 202% 198%;
+    background-position:right bottom;
+
+    transition:all 0.5s ease;
+}
+.hero ul li a:hover {
+  background-position:left bottom;
+  color: black;
+}
